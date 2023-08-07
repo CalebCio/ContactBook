@@ -1,0 +1,92 @@
+.msg {
+
+    width: 100%;
+
+    margin: 5px auto;
+
+    padding: 8px;
+
+    border-radius: 5px;
+
+    list-style: none;
+
+}
+
+
+
+.success {
+
+    color: green;
+
+    border: 1px solid green;
+
+    background: #bcf5bc;
+
+}
+
+
+
+.error {
+
+    color: red;
+
+    border: 1px solid red;
+
+    background: #f5bcbc;
+
+}
+
+
+
+.edit {
+
+    color: green;
+
+}
+
+
+
+.delete {
+
+    color: red;
+
+}
+
+
+
+
+
+.publish {
+
+    color: blue;
+
+}
+
+
+
+.edit:hover,
+
+.delete:hover,
+
+.publish:hover {
+
+    text-decoration: underline;
+
+}
+
+.btn {
+    min-width:100px;
+}
+
+.avatar{
+    height:50px;
+    color:white;
+    width:50px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:600;
+    margin-right:10px;
+}
